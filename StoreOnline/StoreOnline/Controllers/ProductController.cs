@@ -173,6 +173,8 @@ namespace StoreOnline.Controllers
         public ActionResult Edit(int? id, int? sourceType)
         {
 
+
+
             Product entity ;
             Enumerates.TypeSource TypeSourceValue;
             if (id == null)
