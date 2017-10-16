@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Product>
+    <Id>1</Id>
+    <IdCategory>2</IdCategory>
+    <Name>My XML product</Name>
+    <Price>8.95</Price>
+    <Description>My XML product</Description>
+    <State>false</State>
+  </Product>
+  <Product>
+    <Id>2</Id>
+    <IdCategory>2</IdCategory>
+    <Name>My XML product</Name>
+    <Price>96.54</Price>
+    <Description>My XML product</Description>
+    <State>false</State>
+  </Product>
+  <Product>
+    <Id>3</Id>
+    <IdCategory>1</IdCategory>
+    <Name>My second product</Name>
+    <Price>8.96</Price>
+    <Description>My second product</Description>
+    <State>false</State>
+  </Product>
+  <Product>
+    <Id>4</Id>
+    <IdCategory>0</IdCategory>
+    <Price>0</Price>
+    <State>false</State>
+  </Product>
+  <Product>
+    <Id>5</Id>
+    <IdCategory>3</IdCategory>
+    <Name>xml 6</Name>
+    <Price>12.32</Price>
+    <Description>xml 6</Description>
+    <State>false</State>
+  </Product>
+  <Product>
+    <Id>6</Id>
+    <IdCategory>1</IdCategory>
+    <Price>132.32</Price>
+    <State>false</State>
+  </Product>
+</ArrayOfProduct>

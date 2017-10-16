@@ -1,0 +1,4 @@
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Comun.Entities.Base\bin\Debug\SANNA.Comun.Entities.Base.dll
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Comun.Entities.Base\bin\Debug\SANNA.Comun.Entities.Base.pdb
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Comun.Entities.Base\obj\Debug\SANNA.Comun.Entities.Base.dll
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Comun.Entities.Base\obj\Debug\SANNA.Comun.Entities.Base.pdb

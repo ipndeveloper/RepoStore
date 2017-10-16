@@ -1,0 +1,5 @@
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\TestService\bin\Debug\TestService.exe.config
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\TestService\bin\Debug\TestService.exe
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\TestService\bin\Debug\TestService.pdb
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\TestService\obj\Debug\TestService.exe
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\TestService\obj\Debug\TestService.pdb

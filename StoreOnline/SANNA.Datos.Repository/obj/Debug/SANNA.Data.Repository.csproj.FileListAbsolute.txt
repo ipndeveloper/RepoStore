@@ -1,0 +1,15 @@
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Datos.Repository\bin\Debug\SANNA.Data.Repository.dll
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Datos.Repository\bin\Debug\SANNA.Data.Repository.pdb
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Datos.Repository\bin\Debug\SANNA.Comun.Data.Core.dll
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Datos.Repository\bin\Debug\SANNA.Comun.Entities.Base.dll
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Datos.Repository\bin\Debug\SANNA.Data.Entities.dll
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Datos.Repository\bin\Debug\SANNA.Data.IRepository.dll
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Datos.Repository\bin\Debug\SANNA.Comun.Data.Core.pdb
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Datos.Repository\bin\Debug\SANNA.Comun.Entities.Base.pdb
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Datos.Repository\bin\Debug\SANNA.Data.Entities.pdb
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Datos.Repository\bin\Debug\SANNA.Data.IRepository.pdb
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Datos.Repository\obj\Debug\SANNA.Data.Repository.csprojResolveAssemblyReference.cache
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Datos.Repository\obj\Debug\SANNA.Data.Repository.dll
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Datos.Repository\obj\Debug\SANNA.Data.Repository.pdb
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Datos.Repository\bin\Debug\SANNA.Cross.Helpers.dll
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Datos.Repository\bin\Debug\SANNA.Cross.Helpers.pdb

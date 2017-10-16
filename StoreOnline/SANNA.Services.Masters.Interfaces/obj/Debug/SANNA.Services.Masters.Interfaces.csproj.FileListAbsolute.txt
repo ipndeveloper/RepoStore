@@ -1,0 +1,13 @@
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Services.Masters.Interfaces\bin\Debug\SANNA.Services.Masters.Interfaces.dll
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Services.Masters.Interfaces\bin\Debug\SANNA.Services.Masters.Interfaces.pdb
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Services.Masters.Interfaces\bin\Debug\SANNA.Comun.Entities.Base.dll
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Services.Masters.Interfaces\bin\Debug\SANNA.Services.Masters.DataContracts.dll
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Services.Masters.Interfaces\bin\Debug\SANNA.Comun.Entities.Base.pdb
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Services.Masters.Interfaces\bin\Debug\SANNA.Services.Masters.DataContracts.pdb
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Services.Masters.Interfaces\obj\Debug\SANNA.Services.Masters.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Services.Masters.Interfaces\obj\Debug\SANNA.Services.Masters.Interfaces.dll
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Services.Masters.Interfaces\obj\Debug\SANNA.Services.Masters.Interfaces.pdb
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Services.Masters.Interfaces\bin\Debug\SANNA.Cross.Helpers.dll
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Services.Masters.Interfaces\bin\Debug\SANNA.Data.Entities.dll
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Services.Masters.Interfaces\bin\Debug\SANNA.Cross.Helpers.pdb
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Services.Masters.Interfaces\bin\Debug\SANNA.Data.Entities.pdb

@@ -1,0 +1,145 @@
+﻿
+@model PagedList.IPagedList<SANNA.Services.Masters.DataContracts.ProductResponse>
+
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "List of Products";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*<script type="text/javascript">
+    function Change(val)
+    {
+        debugger;
+        var self = "";
+    }
+</script>*@
+
+
+
+@*<div class='row'>
+    <div class="panel-body">
+        <div class='col-md-1'>Source:</div>
+        <div class='col-md-3'>
+            @Html.DropDownList("ObjList", (IEnumerable<SelectListItem>)ViewBag.Locations, new { id = "ddlLocations", @class = "form-control", @onchange = "Change(this.value)" })
+        </div>
+    </div>
+</div>*@
+
+
+
+
+
+
+
+
+
+
+
+@*<div class="row">
+    <div class="panel-body">
+        @using (Html.BeginForm("ProductFilter", "Product", FormMethod.Get))
+        {
+            @Html.Hidden("Source", (string)ViewBag.SourceCode);
+             <div class="col-md-3">
+                Filter by: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+             </div>
+            <div class="col-md-1">
+                 <input type="submit" value="Search" class="btn btn-sm btn-primary btn-create" />
+            </div>
+        }
+    </div>
+</div>*@
+
+<div class="row">
+    <div class="panel panel-default panel-table">
+        <div class="panel-heading">
+            <div class="row">
+                <div class="col col-xs-6">
+                    <h3 class="panel-title">List Products</h3>
+                </div>
+                <div class="col col-xs-6 text-right">
+                    @using (Html.BeginForm("Create", "Product", FormMethod.Get, new { source = ViewBag.SourceCode }))
+                    {
+                        @Html.Hidden("Source", (string)ViewBag.SourceCode)
+                        <button type="submit" class="btn btn-sm btn-primary btn-create" class = "form-control">Create New</button>
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">
+
+
+            <div class="row">
+                <div class="table-responsive">
+
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+
+                                <th>
+                                    Name
+                                </th>
+                                <th>
+                                    Category
+                                </th>
+                                <th>
+                                    Description
+                                </th>
+                                <th>
+                                    Price
+                                </th>
+                                <th>
+                                    Action
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="tbody">
+
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Name)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.NameCategory)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Description)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Price)
+                                    </td>
+
+                                    <td>
+
+                                        @Html.ActionLink("Edit", "Edit", new { id = item.IdProduct  ,  Source = ViewBag.SourceCode }) |
+                                        @Html.ActionLink("Details", "Details", new { id = item.IdProduct }) |
+                                        @Html.ActionLink("Delete", "Delete", new { id = item.IdProduct , Source = ViewBag.SourceCode })
+                                    </td>
+                                </tr>
+                            }
+
+
+                        </tbody>
+                    </table>
+                    <div id='Paging' style="text-align: center">
+                        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
+                        of @Model.PageCount
+
+                        @Html.PagedListPager(Model, page => Url.Action("ProductFilter", new { page, currentFilter = ViewBag.CurrentFilter, Source = ViewBag.SourceCode }))
+                    </div>  
+                    @*Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+                    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))*@
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,7 @@
+//===================================================================================
+// Template T4 for WCF Services
+//===================================================================================
+
+<%@ ServiceHost
+    Service="SANNA.Services.Masters.Interfaces.IProductService, SANNA.Services.Masters.Interfaces"
+    Factory="Autofac.Integration.Wcf.AutofacServiceHostFactory, Autofac.Integration.Wcf" %>	

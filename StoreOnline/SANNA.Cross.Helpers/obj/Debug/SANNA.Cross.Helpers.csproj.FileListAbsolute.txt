@@ -1,0 +1,9 @@
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Cross.Helpers\bin\Debug\SANNA.Cross.Helpers.dll
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Cross.Helpers\bin\Debug\SANNA.Cross.Helpers.pdb
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Cross.Helpers\obj\Debug\SANNA.Cross.Helpers.csprojResolveAssemblyReference.cache
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Cross.Helpers\obj\Debug\SANNA.Cross.Helpers.dll
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Cross.Helpers\obj\Debug\SANNA.Cross.Helpers.pdb
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Cross.Helpers\bin\Debug\SANNA.Comun.Entities.Base.dll
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Cross.Helpers\bin\Debug\SANNA.Data.Entities.dll
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Cross.Helpers\bin\Debug\SANNA.Comun.Entities.Base.pdb
+C:\Users\juan.pinedo\Documents\Visual Studio 2017\Projects\StoreOnline\SANNA.Cross.Helpers\bin\Debug\SANNA.Data.Entities.pdb

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCategory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Category>
+    <Id>1</Id>
+    <Name>My XML Category 1</Name>
+	<Description>My XML Category 1</Description>
+	<State>true</State>
+  </Category>
+  <Category>
+    <Id>2</Id>
+    <Name>My Category 1</Name>
+	<Description>My Category 1</Description>
+	<State>true</State>
+  </Category>
+  <Category>
+    <Id>3</Id>
+    <Name>My Category 3</Name>
+	<Description>My Category 3</Description>
+	<State>true</State>
+  </Category>
+</ArrayOfCategory>

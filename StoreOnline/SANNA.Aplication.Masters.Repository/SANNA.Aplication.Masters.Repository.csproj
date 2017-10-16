@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0F69A992-B87F-45DB-8AB4-5B20BC9AAE2C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SANNA.Aplication.Masters.Repository</RootNamespace>
+    <AssemblyName>SANNA.Aplication.Masters.Repository</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=3.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.3.1.1\lib\net40\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Net4, Version=3.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.3.1.1\lib\net40\AutoMapper.Net4.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CategoryXmlAplication.cs" />
+    <Compile Include="ProductAplication.cs" />
+    <Compile Include="ProducXmltAplication.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SANNA.Aplication.Masters.Entities\SANNA.Aplication.Masters.Entities.csproj">
+      <Project>{605a7922-24f5-4de2-82fe-19bafa38a434}</Project>
+      <Name>SANNA.Aplication.Masters.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SANNA.Aplication.Masters.IRepository\SANNA.Aplication.Masters.IRepository.csproj">
+      <Project>{b333845a-3f91-4e42-8b86-3b5bc95246c0}</Project>
+      <Name>SANNA.Aplication.Masters.IRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SANNA.Comun.Entities.Base\SANNA.Comun.Entities.Base.csproj">
+      <Project>{19e7df59-8bb8-4588-8cda-303c570d23b8}</Project>
+      <Name>SANNA.Comun.Entities.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SANNA.Cross.Helpers\SANNA.Cross.Helpers.csproj">
+      <Project>{efdb3d9b-8bc5-414d-9437-136ba8bbe9cc}</Project>
+      <Name>SANNA.Cross.Helpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SANNA.Entities\SANNA.Data.Entities.csproj">
+      <Project>{096dec6d-1072-471e-bc2e-4a195238b6f4}</Project>
+      <Name>SANNA.Data.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAO.Datos.Repository\SANNA.Data.IRepository.csproj">
+      <Project>{708e2585-76c7-4180-9968-416aedaf5bcf}</Project>
+      <Name>SANNA.Data.IRepository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
