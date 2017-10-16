@@ -99,7 +99,7 @@ namespace SANNA.Aplication.Masters.Repository
 
         public IEnumerable<ProductResponse> ProductFilterPagination(ProductRequest entity)
         {
-            IEnumerable<ProductResponse> result = null;
+           
             IEnumerable<ProductResponse> query = null;
             try
             {
@@ -115,7 +115,7 @@ namespace SANNA.Aplication.Masters.Repository
 
 
 
-                result = query;
+              
 
             }
             catch (Exception ex)
@@ -124,14 +124,14 @@ namespace SANNA.Aplication.Masters.Repository
             }
 
 
-            return result.ToList();
+            return query.ToList();
 
 
         }
         private IEnumerable<ProductResponse> GetXmlQuery(ProductRequest entity)
         {
-            var query = from prod in _productXmlRepository.Entities
-                        join cate in _categoryXmlRepository.Entities
+            var query = from prod in _productXmlRepository.Entities.AsEnumerable()
+                        join cate in _categoryXmlRepository.Entities.AsEnumerable()
                         on prod.IdCategory equals cate.Id
                         where (string.IsNullOrEmpty(entity.Name) || prod.Name.StartsWith(entity.Name)) &&
                               (entity.IdCategory <= 0 || prod.IdCategory == entity.IdCategory)
@@ -147,10 +147,10 @@ namespace SANNA.Aplication.Masters.Repository
                         };
             return query;
         }
-        private IQueryable<ProductResponse> GetMemoryQuery(ProductRequest entity)
+        private IEnumerable<ProductResponse> GetMemoryQuery(ProductRequest entity)
         {
-            var query = from prod in _productMemoryRepository.Entities
-                        join cate in _productMemoryRepository.Entities
+            var query = from prod in _productMemoryRepository.Entities.AsEnumerable()
+                        join cate in _productMemoryRepository.Entities.AsEnumerable()
                         on prod.IdCategory equals cate.Id
                         where (string.IsNullOrEmpty(entity.Name) || prod.Name.StartsWith(entity.Name)) &&
                               (entity.IdCategory <= 0 || prod.IdCategory == entity.IdCategory)
